@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import AppNav from "./AppNav";
 import Footer from "./Footer";
 import Logo from "./Logo";
@@ -9,7 +10,8 @@ function Sidebar() {
     <div className={styles.sidebar}>
       <Logo />
       <AppNav />
-      <p>List of Cities</p>
+
+      <Outlet />
 
       <Footer />
     </div>
