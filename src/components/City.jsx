@@ -1,3 +1,5 @@
+// import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
 
 const formatDate = (date) =>
@@ -9,6 +11,12 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
+  const params = useParams();
+  console.log(params);
+
+  // const [searchParams, setSearchParams] = useSearchParams();
+  // console.log(searchParams);
+
   // TEMP DATA
   const currentCity = {
     cityName: "Lisbon",
