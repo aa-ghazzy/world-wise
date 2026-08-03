@@ -1,4 +1,3 @@
-// import { useParams, useSearchParams } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
 import { useCities } from "../contexts/useCities";
@@ -18,9 +17,6 @@ function City() {
   const { id } = useParams();
   const { currentCity, getCity, isLoading } = useCities();
   const { cityName, emoji, date, notes } = currentCity;
-
-  // const [searchParams, setSearchParams] = useSearchParams();
-  // console.log(searchParams);
 
   // TEMP DATA
   // const currentCity = {
