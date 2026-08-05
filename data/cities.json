@@ -47,6 +47,30 @@
         "lng": "38.323174221784384"
       },
       "id": "DrVK_WC_Y0c"
+    },
+    {
+      "cityName": "Navalvillar de Pela",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2026-08-05T20:00:14.013Z",
+      "notes": "",
+      "position": {
+        "lat": "39.11301365149975",
+        "lng": "-5.405273437500001"
+      },
+      "id": "y73ROrHH59g"
+    },
+    {
+      "cityName": "Reggane",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2026-08-05T20:00:17.684Z",
+      "notes": "",
+      "position": {
+        "lat": "25.48295117535531",
+        "lng": "-2.1972656250000004"
+      },
+      "id": "PKhmEaDmSuw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
