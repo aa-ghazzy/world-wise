@@ -12,7 +12,7 @@ import {
 
 import Button from "../components/Button";
 
-import { useCities } from "../contexts/useCities";
+import { useCities } from "../contexts/cities/useCities";
 import { useGeolocation } from "../hooks/useGeolocation";
 
 import styles from "./Map.module.css";

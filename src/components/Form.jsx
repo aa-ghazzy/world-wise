@@ -11,7 +11,7 @@ import Spinner from "./Spinner";
 
 import styles from "./Form.module.css";
 import { useUrlPosition } from "../hooks/useUrlPosition";
-import { useCities } from "../contexts/useCities";
+import { useCities } from "../contexts/cities/useCities";
 import { useNavigate } from "react-router-dom";
 
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
