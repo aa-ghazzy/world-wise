@@ -16,12 +16,12 @@ export default function Login() {
 
   function handleLogin(e) {
     e.preventDefault();
-    login(email, password);
+    if (email && password) login(email, password);
   }
 
   useEffect(
     function () {
-      if (isAuthenticated === true) navigate("/app");
+      if (isAuthenticated) navigate("/app", { replace: true });
     },
     [isAuthenticated, navigate]
   );

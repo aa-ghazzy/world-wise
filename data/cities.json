@@ -37,18 +37,6 @@
       "id": "98443197"
     },
     {
-      "cityName": "Mega",
-      "country": "Ethiopia",
-      "emoji": "🇪🇹",
-      "date": "2026-08-05T13:32:22.596Z",
-      "notes": "asdasdd",
-      "position": {
-        "lat": "4.171115454867424",
-        "lng": "38.323174221784384"
-      },
-      "id": "DrVK_WC_Y0c"
-    },
-    {
       "cityName": "Navalvillar de Pela",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -71,6 +59,18 @@
         "lng": "-2.1972656250000004"
       },
       "id": "PKhmEaDmSuw"
+    },
+    {
+      "cityName": "Kindu",
+      "country": "Congo (the Democratic Republic of the)",
+      "emoji": "🇨🇩",
+      "date": "2026-08-07T00:26:12.587Z",
+      "notes": "",
+      "position": {
+        "lat": "-2.2640319823699318",
+        "lng": "25.30539317216726"
+      },
+      "id": "rLxq9bX0UZc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

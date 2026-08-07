@@ -31,6 +31,7 @@ export function AuthProvider({ children }) {
   );
 
   function login(email, password) {
+    
     if (FAKE_USER.email === email && FAKE_USER.password === password)
       return dispatch({ type: "login", payload: FAKE_USER });
   }
@@ -40,7 +41,7 @@ export function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider value={(user, isAuthenticated, login, logout)}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
