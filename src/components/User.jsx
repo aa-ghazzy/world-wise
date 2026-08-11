@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/authentication/useAuth";
 import styles from "./User.module.css";
+import { useCities } from "../contexts/cities/useCities";
 
 // const FAKE_USER = {
 //   name: "Jack",
@@ -11,10 +12,12 @@ import styles from "./User.module.css";
 
 function User() {
   const { user, logout } = useAuth();
+  const { dispatch } = useCities();
   const navigate = useNavigate();
 
   function handleClick() {
     logout();
+    dispatch({ type: "reset/currentCity" });
     navigate("/");
   }
 
